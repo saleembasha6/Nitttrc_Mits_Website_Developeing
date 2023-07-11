@@ -1,2 +1,2 @@
-# Nitttrc_Mits_Website_Developeing
+# Nitttrc_Mits_Website_Developing
 Nittrc Website Development
