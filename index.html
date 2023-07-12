@@ -1,43 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NITTTR College</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Welcome to NITTR</title>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-  <!-- Header -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Admissions</a></li>
-        <li><a href="#">Programs</a></li>
-        <li><a href="#">Departments</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Main Content -->
-  <main>
-    <section id="hero-section">
-      <h1>Welcome to NITTTR College</h1>
-      <p>Providing quality education since 19XX</p>
-      <a href="#" class="cta-button">Learn More</a>
-    </section>
+<body id="home">
+<!-- Start Your Body Code From here -->
 
-    <!-- Other sections -->
-    <!-- Add more sections for About, Admissions, Programs, Departments, etc. -->
-  </main>
+<div class="wrapper">
+    <!-- header starts here -->
+    <header id="header" class="">
+        <!-- header -->
+        <div class="header-wrapper">
+            <div class="header-container">
+                <div>
+                    <div class="logo-name">
+                        <div class="logo"><a href="index.html" title=""><img src="logo.jpg"
+                                                                             alt="logo"></a></div>
+                        <div class="name">
+                            <a href="index.html" title="">
+                                <h5>National Institute of Technical Teachers Training and Research</h5>
+                                <h5 class="primary-color">Chennai</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="header-links">
+                    <a href="#" data-toggle="popover" title="Address"
+                       data-content="National Institute of Technical Teachers' Training and Research
+                       Taramani, Chennai 600113 Tamilnadu"
+                       data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 20XX NITTTR College. All rights reserved.</p>
-  </footer>
+                    <a href="#" data-toggle="popover" title="Phone No." data-content="#"
+                       data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
 
-  <script src="script.js"></script>
-</body>
+                    <a href="#" data-toggle="popover" title="Email" data-content="help@nitttr.ac.in"
+                       data-placement="bottom"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+                </div>-->
+            </div>
+        </div>
+        <nav>
+            <div class="navbar navbar-inverse navbar-custom" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Institute <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="directors_message.html">Director's Message</a></li>
+                                    <li><a href="bog.html">Board of Governors</a></li>
+                                
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Linkages</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="linkages/da-iict.html">DA-IICT</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academics <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">B.Tech</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="btech_cse.html">CSE</a></li>
+                                            <li><a href="btech_it.html">IT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">M.Tech</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">CSE</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Ph.D</a></li>
+                                    <li><a href="#">Academic Calender</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="#">B.Tech</a></li>
+                                    <li><a href="#l">M.Tech</a></li>
+                                    <li><a href="#">Ph.D</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">People <b class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="#">Faculty</a></li>
+                                    <li><a href="#">Visiting Faculty</a></li>
+                                    <li><a href="#">Staff</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu multi-level">
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Student's Corner</a></li>
+                                    <li><a href="#" target="_blank">Moodle</a></li>
+                                    <li><a href="#">Library</a></li>
+                                    <li><a href="#">Invited Talks</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Photo Gallery</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/434d359724.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="popover"]').on('click', function (e) {
+            $('[data-toggle="popover"]').not(this).popover('hide');
+        });
+    });
+</script>
+
+  </body>
 </html>
