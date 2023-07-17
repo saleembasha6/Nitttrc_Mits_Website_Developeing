@@ -1,0 +1,180 @@
+/*
+	  ==============================================================
+		   DEFAULT CSS START
+	  ==============================================================
+*/
+.iq_wrapper,
+header,
+section,
+.section,
+.iq_content_wrap,
+footer{
+	float:left;
+	width:100%;	
+}
+.iq_wrapper,
+section,
+footer{
+	overflow:hidden;	
+}
+.section,
+section,
+.iq_footer_bg{
+	padding:70px 0px 40px;	
+}
+.no_padding{
+	padding:0px;	
+}
+a:focus{
+	color: #333;
+}
+.thumb{
+	float: left;
+	width: 100;
+	position: relative;
+}
+.overflow-text{
+	float: none;
+	width: auto;
+	overflow: hidden;
+}
+/*
+	  ==============================================================
+		   DEFAULT CSS END
+	  ==============================================================
+*/
+/*Our Gallery Wrap Start*/
+.iq_gallery_bg{
+	background-color:#f6f6f6;	
+}
+/*Gallery Menu*/
+.iq_gallery_menu{
+	margin:0px 0px 40px;	
+}
+.iq_gallery_menu,
+.iq_gallery_menu ul{
+	float:left;
+	width:100%;
+	position:relative;
+	text-align:center;	
+}
+.iq_gallery_menu ul li{
+	margin-left:10px;	
+	position:relative;
+	display:inline-block;
+}
+.iq_gallery_menu ul li:first-child{
+	margin-left:0px;	
+}
+.iq_gallery_menu ul li a{
+	display:block;
+	font-size:16px;
+	cursor: pointer;
+	border-radius:4px;	
+	padding:10px 15px;
+	line-height:normal;
+	text-transform: uppercase;
+	border:2px solid #d2d2d2;
+}
+.iq_gallery_menu ul li:hover a,
+.iq_gallery_menu ul li a.active,
+.iq_gallery_menu ul li:focus a{
+	box-shadow:0 3px 7px 0 rgba(0, 0, 0, 0.15);	
+}
+.iq_gallery_menu ul li a.active{
+	cursor: no-drop;
+}
+.main-gallery {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px;
+}
+.filterable_container.main-gallery{
+	margin: 0 0 50px;
+}
+.filterable_container.main-gallery [class*="col"]{
+	padding: 0;
+	width: 33.2%;
+}
+/*GALLERY STYLE*/
+.image-container {
+	  display: flex;
+	  width:auto;
+	  height:auto;
+	  justify-content: center;
+	  align-items: center;
+	  float: center;
+  	  margin-left: auto;
+  	  margin-right: auto;
+  }
+  
+  .image-container img {
+	transition: transform 0.3s;
+  }
+  
+  .image-container img:hover {
+	transform: scale(1.2);
+  }
+.filterable_container.main-gallery .image-container{
+	margin: 0;
+}
+
+.link-wrapper{
+	float: center;
+	width: 100%;
+}
+.link-wrapper > a {
+	color: #333;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 45px;
+    margin: 0px 5px 10px;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+}
+.link-wrapper h6{
+	float: left;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+}
+.load-more{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.iq_gallery_bg .load-more{
+	margin: 0 0 30px;
+}
+/*
+	  ==============================================================
+		   GALLERY-2 WRAP CSS START
+	  ==============================================================
+*/
+.iq_gallery_style2{
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;	
+}
+.iq_gallery_style2:before{
+	content:"";
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	width:0px;
+	height:0px;
+	margin:auto;	
+}
+/*Hover Style*/
+/*
+	  ==============================================================
+		   GALLERY-2 WRAP CSS END
+	  ==============================================================
+*/
+
+/*
