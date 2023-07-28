@@ -1,0 +1,63 @@
+/* CSS for the popup gallery */
+.gallery {
+   min-height: 100vh;
+    background:#eee;
+    padding-bottom: 100px;
+  }
+  
+  .image-container {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+  }
+
+  .image-container img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+  }
+  .description {
+    color: #f9f4f4;
+  }
+.image-container img {
+transition: transform 0.3s;
+}
+
+.image-container img:hover {
+transform: scale(1.2);
+}
+.filterable_container.main-gallery .image-container{
+margin: 0;
+}
+
+.image-contain {
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.image-contain img {
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}
+.description {
+  color: #f9f4f4;
+}
+.image-contain img {
+transition: transform 0.3s;
+margin: 10px;
+}
+
+.image-contain img:hover {
+transform: scale(1.2);
+}
+.filterable_container.main-gallery .image-contain{
+margin: 0;
+}
